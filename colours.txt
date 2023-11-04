@@ -1,0 +1,6 @@
+﻿
+background = 37; 58; 94
+light blue = 60; 94; 139
+baby blue = 79; 143; 186
+darkRed = 117; 36; 56
+light red = 165; 48; 48

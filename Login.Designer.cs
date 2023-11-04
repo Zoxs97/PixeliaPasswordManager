@@ -44,6 +44,7 @@ namespace PixeliaPasswordManager
             // labelUsername
             // 
             resources.ApplyResources(this.labelUsername, "labelUsername");
+            this.labelUsername.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.labelUsername.Name = "labelUsername";
             // 
             // textBoxUsername
@@ -59,36 +60,42 @@ namespace PixeliaPasswordManager
             // labelPassword
             // 
             resources.ApplyResources(this.labelPassword, "labelPassword");
+            this.labelPassword.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.labelPassword.Name = "labelPassword";
             // 
             // buttonLogin
             // 
+            this.buttonLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             resources.ApplyResources(this.buttonLogin, "buttonLogin");
             this.buttonLogin.Name = "buttonLogin";
-            this.buttonLogin.UseVisualStyleBackColor = true;
+            this.buttonLogin.UseVisualStyleBackColor = false;
             this.buttonLogin.Click += new System.EventHandler(this.ButtonLogin_Click);
             // 
             // labelFeedback
             // 
             resources.ApplyResources(this.labelFeedback, "labelFeedback");
+            this.labelFeedback.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.labelFeedback.Name = "labelFeedback";
             // 
             // buttonNewUser
             // 
+            this.buttonNewUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             resources.ApplyResources(this.buttonNewUser, "buttonNewUser");
             this.buttonNewUser.Name = "buttonNewUser";
-            this.buttonNewUser.UseVisualStyleBackColor = true;
+            this.buttonNewUser.UseVisualStyleBackColor = false;
             this.buttonNewUser.Click += new System.EventHandler(this.ButtonNewUser_Click);
             // 
             // buttonForgotUser
             // 
+            this.buttonForgotUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             resources.ApplyResources(this.buttonForgotUser, "buttonForgotUser");
             this.buttonForgotUser.Name = "buttonForgotUser";
-            this.buttonForgotUser.UseVisualStyleBackColor = true;
+            this.buttonForgotUser.UseVisualStyleBackColor = false;
             // 
             // FormLogin
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(58)))), ((int)(((byte)(94)))));
             resources.ApplyResources(this, "$this");
             this.Controls.Add(this.buttonForgotUser);
             this.Controls.Add(this.buttonNewUser);
