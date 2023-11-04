@@ -45,48 +45,55 @@
             // 
             // buttonCreateEntry
             // 
+            this.buttonCreateEntry.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.buttonCreateEntry.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.buttonCreateEntry.Location = new System.Drawing.Point(267, 354);
+            this.buttonCreateEntry.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonCreateEntry.Location = new System.Drawing.Point(237, 283);
+            this.buttonCreateEntry.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonCreateEntry.Name = "buttonCreateEntry";
-            this.buttonCreateEntry.Size = new System.Drawing.Size(102, 39);
+            this.buttonCreateEntry.Size = new System.Drawing.Size(91, 31);
             this.buttonCreateEntry.TabIndex = 7;
             this.buttonCreateEntry.Text = "Create";
-            this.buttonCreateEntry.UseVisualStyleBackColor = true;
+            this.buttonCreateEntry.UseVisualStyleBackColor = false;
             this.buttonCreateEntry.Click += new System.EventHandler(this.buttonCreateEntry_Click);
             // 
             // textBoxPassword
             // 
             this.textBoxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBoxPassword.Location = new System.Drawing.Point(141, 303);
+            this.textBoxPassword.Location = new System.Drawing.Point(125, 242);
+            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(228, 35);
+            this.textBoxPassword.Size = new System.Drawing.Size(203, 30);
             this.textBoxPassword.TabIndex = 6;
             // 
             // labelPassword
             // 
             this.labelPassword.AutoSize = true;
             this.labelPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelPassword.Location = new System.Drawing.Point(7, 306);
+            this.labelPassword.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelPassword.Location = new System.Drawing.Point(6, 245);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(120, 29);
+            this.labelPassword.Size = new System.Drawing.Size(98, 25);
             this.labelPassword.TabIndex = 18;
             this.labelPassword.Text = "Password";
             // 
             // textBoxUsername
             // 
             this.textBoxUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBoxUsername.Location = new System.Drawing.Point(141, 203);
+            this.textBoxUsername.Location = new System.Drawing.Point(125, 162);
+            this.textBoxUsername.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxUsername.Name = "textBoxUsername";
-            this.textBoxUsername.Size = new System.Drawing.Size(228, 35);
+            this.textBoxUsername.Size = new System.Drawing.Size(203, 30);
             this.textBoxUsername.TabIndex = 4;
             // 
             // labelUsername
             // 
             this.labelUsername.AutoSize = true;
             this.labelUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelUsername.Location = new System.Drawing.Point(7, 206);
+            this.labelUsername.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelUsername.Location = new System.Drawing.Point(6, 165);
             this.labelUsername.Name = "labelUsername";
-            this.labelUsername.Size = new System.Drawing.Size(124, 29);
+            this.labelUsername.Size = new System.Drawing.Size(102, 25);
             this.labelUsername.TabIndex = 16;
             this.labelUsername.Text = "Username";
             // 
@@ -94,9 +101,10 @@
             // 
             this.labelEntryType.AutoSize = true;
             this.labelEntryType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelEntryType.Location = new System.Drawing.Point(7, 151);
+            this.labelEntryType.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelEntryType.Location = new System.Drawing.Point(6, 121);
             this.labelEntryType.Name = "labelEntryType";
-            this.labelEntryType.Size = new System.Drawing.Size(128, 29);
+            this.labelEntryType.Size = new System.Drawing.Size(107, 25);
             this.labelEntryType.TabIndex = 15;
             this.labelEntryType.Text = "Entry Type";
             // 
@@ -104,9 +112,10 @@
             // 
             this.comboBoxEntryType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.comboBoxEntryType.FormattingEnabled = true;
-            this.comboBoxEntryType.Location = new System.Drawing.Point(141, 151);
+            this.comboBoxEntryType.Location = new System.Drawing.Point(125, 121);
+            this.comboBoxEntryType.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxEntryType.Name = "comboBoxEntryType";
-            this.comboBoxEntryType.Size = new System.Drawing.Size(228, 37);
+            this.comboBoxEntryType.Size = new System.Drawing.Size(203, 33);
             this.comboBoxEntryType.TabIndex = 3;
             this.comboBoxEntryType.Enter += new System.EventHandler(this.comboBoxEntryType_Enter);
             // 
@@ -114,64 +123,73 @@
             // 
             this.labelCreateEntry.AutoSize = true;
             this.labelCreateEntry.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelCreateEntry.Location = new System.Drawing.Point(7, 116);
+            this.labelCreateEntry.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelCreateEntry.Location = new System.Drawing.Point(6, 93);
             this.labelCreateEntry.Name = "labelCreateEntry";
-            this.labelCreateEntry.Size = new System.Drawing.Size(314, 29);
+            this.labelCreateEntry.Size = new System.Drawing.Size(256, 25);
             this.labelCreateEntry.TabIndex = 13;
             this.labelCreateEntry.Text = "Create New Password Entry";
             // 
             // buttonCreateType
             // 
+            this.buttonCreateType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.buttonCreateType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.buttonCreateType.Location = new System.Drawing.Point(267, 50);
+            this.buttonCreateType.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonCreateType.Location = new System.Drawing.Point(237, 40);
+            this.buttonCreateType.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonCreateType.Name = "buttonCreateType";
-            this.buttonCreateType.Size = new System.Drawing.Size(102, 39);
+            this.buttonCreateType.Size = new System.Drawing.Size(91, 31);
             this.buttonCreateType.TabIndex = 2;
             this.buttonCreateType.Text = "Create";
-            this.buttonCreateType.UseVisualStyleBackColor = true;
+            this.buttonCreateType.UseVisualStyleBackColor = false;
             this.buttonCreateType.Click += new System.EventHandler(this.buttonCreateType_Click);
             // 
             // textBoxCreateType
             // 
             this.textBoxCreateType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBoxCreateType.Location = new System.Drawing.Point(12, 50);
+            this.textBoxCreateType.Location = new System.Drawing.Point(11, 40);
+            this.textBoxCreateType.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxCreateType.Name = "textBoxCreateType";
-            this.textBoxCreateType.Size = new System.Drawing.Size(249, 35);
+            this.textBoxCreateType.Size = new System.Drawing.Size(222, 30);
             this.textBoxCreateType.TabIndex = 1;
             // 
             // labelCreateType
             // 
             this.labelCreateType.AutoSize = true;
             this.labelCreateType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelCreateType.Location = new System.Drawing.Point(20, 18);
+            this.labelCreateType.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelCreateType.Location = new System.Drawing.Point(18, 14);
             this.labelCreateType.Name = "labelCreateType";
-            this.labelCreateType.Size = new System.Drawing.Size(202, 29);
+            this.labelCreateType.Size = new System.Drawing.Size(165, 25);
             this.labelCreateType.TabIndex = 21;
             this.labelCreateType.Text = "Create New Type";
             // 
             // textBoxEmail
             // 
             this.textBoxEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBoxEmail.Location = new System.Drawing.Point(141, 252);
+            this.textBoxEmail.Location = new System.Drawing.Point(125, 202);
+            this.textBoxEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxEmail.Name = "textBoxEmail";
-            this.textBoxEmail.Size = new System.Drawing.Size(228, 35);
+            this.textBoxEmail.Size = new System.Drawing.Size(203, 30);
             this.textBoxEmail.TabIndex = 5;
             // 
             // labelEmail
             // 
             this.labelEmail.AutoSize = true;
             this.labelEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelEmail.Location = new System.Drawing.Point(7, 255);
+            this.labelEmail.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelEmail.Location = new System.Drawing.Point(6, 204);
             this.labelEmail.Name = "labelEmail";
-            this.labelEmail.Size = new System.Drawing.Size(74, 29);
+            this.labelEmail.Size = new System.Drawing.Size(60, 25);
             this.labelEmail.TabIndex = 24;
             this.labelEmail.Text = "Email";
             // 
             // CreatePasswordEntry
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(393, 417);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(58)))), ((int)(((byte)(94)))));
+            this.ClientSize = new System.Drawing.Size(349, 334);
             this.Controls.Add(this.textBoxEmail);
             this.Controls.Add(this.labelEmail);
             this.Controls.Add(this.buttonCreateType);
@@ -185,6 +203,7 @@
             this.Controls.Add(this.labelEntryType);
             this.Controls.Add(this.comboBoxEntryType);
             this.Controls.Add(this.labelCreateEntry);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "CreatePasswordEntry";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CreatePasswordEntry";

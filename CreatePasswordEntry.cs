@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.IO;
 
 using Newtonsoft.Json;
+using static PixeliaPasswordManager.UserDataManager;
 
 namespace PixeliaPasswordManager
 {
@@ -32,6 +33,17 @@ namespace PixeliaPasswordManager
                 {
                     string json = File.ReadAllText(dataPath);
                     Data data = JsonConvert.DeserializeObject<Data>(json);
+
+                    if (data == null)
+                    {
+                        // handle the situation, maybe log an error or initialize 'data' to a new instance
+                        data = new Data();
+                    }
+
+                    if (data.Types == null)
+                    {
+                        data.Types = new List<string>() { "None" };
+                    }
                     return data;
                 }
                 catch (Exception ex)
@@ -39,12 +51,13 @@ namespace PixeliaPasswordManager
                     Console.WriteLine("Error: " + ex.Message);
                 }
             }
-
+                
             return new Data();
         }
 
         private void SaveDataEntry(Data userData)
         {
+
             Data existingData = GetData();
             existingData.Entries.AddRange(userData.Entries);
             string json = JsonConvert.SerializeObject(existingData, Formatting.Indented);
@@ -56,8 +69,6 @@ namespace PixeliaPasswordManager
         {
 
             Data existingData = GetData();
-            if (existingData == null)
-                existingData = new Data();
             existingData.Types.AddRange(userData.Types);
             string json = JsonConvert.SerializeObject(existingData, Formatting.Indented);
             File.WriteAllText(dataPath, json);

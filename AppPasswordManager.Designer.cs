@@ -73,12 +73,12 @@
             this.groupBoxPanel.Controls.Add(this.dataGridView);
             this.groupBoxPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBoxPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.groupBoxPanel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.groupBoxPanel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.groupBoxPanel.Location = new System.Drawing.Point(0, 0);
             this.groupBoxPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBoxPanel.Name = "groupBoxPanel";
             this.groupBoxPanel.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBoxPanel.Size = new System.Drawing.Size(1385, 797);
+            this.groupBoxPanel.Size = new System.Drawing.Size(1164, 570);
             this.groupBoxPanel.TabIndex = 1;
             this.groupBoxPanel.TabStop = false;
             // 
@@ -97,11 +97,11 @@
             this.groupBox1.Controls.Add(this.labelUsername);
             this.groupBox1.Controls.Add(this.labelType);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox1.Location = new System.Drawing.Point(244, 577);
+            this.groupBox1.Location = new System.Drawing.Point(245, 347);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(1136, 216);
+            this.groupBox1.Size = new System.Drawing.Size(913, 216);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Password Settings";
@@ -109,8 +109,8 @@
             // buttonCopyEmail
             // 
             this.buttonCopyEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.buttonCopyEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonCopyEmail.ForeColor = System.Drawing.Color.White;
+            this.buttonCopyEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCopyEmail.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttonCopyEmail.Location = new System.Drawing.Point(458, 111);
             this.buttonCopyEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonCopyEmail.Name = "buttonCopyEmail";
@@ -123,8 +123,8 @@
             // buttonCopyUsername
             // 
             this.buttonCopyUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.buttonCopyUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonCopyUsername.ForeColor = System.Drawing.Color.White;
+            this.buttonCopyUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCopyUsername.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttonCopyUsername.Location = new System.Drawing.Point(458, 77);
             this.buttonCopyUsername.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonCopyUsername.Name = "buttonCopyUsername";
@@ -137,8 +137,8 @@
             // buttonCopyPassword
             // 
             this.buttonCopyPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.buttonCopyPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonCopyPassword.ForeColor = System.Drawing.Color.White;
+            this.buttonCopyPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCopyPassword.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttonCopyPassword.Location = new System.Drawing.Point(458, 144);
             this.buttonCopyPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonCopyPassword.Name = "buttonCopyPassword";
@@ -151,7 +151,7 @@
             // checkBoxShowPassword
             // 
             this.checkBoxShowPassword.AutoSize = true;
-            this.checkBoxShowPassword.Location = new System.Drawing.Point(278, 178);
+            this.checkBoxShowPassword.Location = new System.Drawing.Point(289, 178);
             this.checkBoxShowPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxShowPassword.Name = "checkBoxShowPassword";
             this.checkBoxShowPassword.Size = new System.Drawing.Size(175, 29);
@@ -238,7 +238,7 @@
             this.panel1.Location = new System.Drawing.Point(11, 62);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(228, 723);
+            this.panel1.Size = new System.Drawing.Size(228, 501);
             this.panel1.TabIndex = 15;
             // 
             // toolStrip1
@@ -261,7 +261,7 @@
             this.toolStrip1.Location = new System.Drawing.Point(3, 25);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.toolStrip1.Size = new System.Drawing.Size(1379, 31);
+            this.toolStrip1.Size = new System.Drawing.Size(1158, 31);
             this.toolStrip1.TabIndex = 14;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -297,6 +297,7 @@
             this.toolStripButtonDeleteEntry.Name = "toolStripButtonDeleteEntry";
             this.toolStripButtonDeleteEntry.Size = new System.Drawing.Size(29, 28);
             this.toolStripButtonDeleteEntry.Text = "DeleteEntry";
+            this.toolStripButtonDeleteEntry.ToolTipText = "Delete Entry";
             this.toolStripButtonDeleteEntry.Click += new System.EventHandler(this.toolStripButtonDeleteEntry_Click);
             // 
             // toolStripButtonEditEntry
@@ -322,6 +323,7 @@
             this.toolStripButtonReload.Name = "toolStripButtonReload";
             this.toolStripButtonReload.Size = new System.Drawing.Size(29, 28);
             this.toolStripButtonReload.Text = "Reload";
+            this.toolStripButtonReload.ToolTipText = "Refresh";
             this.toolStripButtonReload.Click += new System.EventHandler(this.toolStripButtonReload_Click);
             // 
             // toolStripButtonGeneratePassword
@@ -347,6 +349,7 @@
             this.toolStripButtonCopyPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.toolStripButtonCopyPassword.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripButtonCopyPassword.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.toolStripButtonCopyPassword.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.toolStripButtonCopyPassword.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonCopyPassword.Image")));
             this.toolStripButtonCopyPassword.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonCopyPassword.Name = "toolStripButtonCopyPassword";
@@ -366,20 +369,20 @@
             this.dataGridView.RowTemplate.Height = 28;
             this.dataGridView.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView.Size = new System.Drawing.Size(1136, 510);
+            this.dataGridView.Size = new System.Drawing.Size(914, 281);
             this.dataGridView.TabIndex = 13;
             this.dataGridView.SelectionChanged += new System.EventHandler(this.dataGridView_SelectionChanged);
             // 
             // AppPasswordManager
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1385, 797);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
+            this.ClientSize = new System.Drawing.Size(1164, 570);
             this.Controls.Add(this.groupBoxPanel);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
             this.Name = "AppPasswordManager";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Password Manager";
